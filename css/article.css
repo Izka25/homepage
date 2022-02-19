@@ -1,0 +1,29 @@
+.article {
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 2px 2px 8px #ccc;
+  margin: 20px auto;
+
+}
+
+.article__header{
+    color: #5a5a5a;
+}
+
+.article__paragraph{
+    color:rgb(19, 12, 12);
+}
+
+.article__paragraph--highlighted{
+    color:rgb(29, 39, 190);
+}
+
+.article--illuminated {
+background: rgb(185, 187, 186);
+
+
+}
+
+.article--illuminated .article__paragraph{
+    color:rgb(69, 52, 92);
+}

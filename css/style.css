@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.naglowek {
+    color: blue;
+}
+
+.subHeader {
+    color: #857671;
+}
+
+
+
+.etui {
+    color: #5c5757;
+}
+
+.body {
+    background-color: #bbbab8;
+    font-family: "Lato", sans-serif;
+}
+
+.dark {
+    color: #eee;
+    background: rgb(139, 125, 125);
+}
+
+.caption {
+    font-size: 25px;
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+.tableCell {
+    border: 1px solid #00f;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.tableHeader {
+    background-color: rgb(130, 63, 236);
+    color: white;
+    font-weight: normal;
+}
+
+.tableRow:nth-child(even) { 
+    background-color: #8d8585;
+}
+
+.tableRow:hover {
+    background-color: rgb(184, 194, 194);
+}
+
+.elementy {
+    max-width: 1000px;
+    background: rgb(211, 192, 192);
+    padding: 20px;
+    margin: 50px auto 100px;
+    border: 3px solid rgb(91, 91, 199);
+    outline: 2px solid green;
+    box-shadow: 6px 23px 9px rgb(112, 86, 86);
+    font-family: "Lato", sans-serif;
+    text-shadow: 1px 2px 5px rgb(205, 205, 212);
+    line-height: 1.5;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.listItem {
+    margin: 10px 0;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.none {
+    list-style-type: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.photo {
+   
+   padding: 10px;
+}
