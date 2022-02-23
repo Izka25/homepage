@@ -1,4 +1,4 @@
-console.log("Cześć");
+console.log("Cześć to już raz było robione ale cóz😅");
 
 const button = document.querySelector(".button");
 const photo = document.querySelector(".photo");
