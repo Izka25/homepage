@@ -8,4 +8,8 @@ https://izka25.github.io/homepage/
 
 ## Opis
 
-Moja pierwsza strona
+This is my first page.
+
+The project describes my personality interest and favorite series.
+
+I will fill in my page whenever possible.
