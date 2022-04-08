@@ -1,20 +1,20 @@
 console.log("Cześć to już raz było robione ale cóz😅");
 
-const button = document.querySelector(".button");
-const photo = document.querySelector(".photo");
+const removePhotoButton = document.querySelector(".js-removePhotoButton");
+const photo = document.querySelector(".js-photo");
 
-button.addEventListener("click", () => {
+removePhotoButton.addEventListener("click", () => {
     photo.classList.toggle("hidden");
-    button.innerText = photo.classList.contains("hidden") ? "Przywróć zdjęcie" : "Usuń zdjęcie";
+    removePhotoButton.innerText = photo.classList.contains("hidden") ? "Przywróć zdjęcie" : "Usuń zdjęcie";
 });
 
 
 
-let button2 = document.querySelector(".button2");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+let button = document.querySelector(".js-button");
+let body = document.querySelector(".js-body");
+let themeName = document.querySelector(".js-themeName");
 
-button2.addEventListener("click", () => {
+button.addEventListener("click", () => {
     body.classList.toggle("dark");
     if (body.classList.contains("dark")) {
         themeName.innerText = "jasny";
