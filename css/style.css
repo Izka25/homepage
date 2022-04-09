@@ -10,9 +10,7 @@ html {
     color: blue;
 }
 
-.subHeader {
-    color: #857671;
-}
+
 
 
 
@@ -44,13 +42,13 @@ html {
     width: 100%;
 }
 
-.tableCell {
+.table__cell {
     border: 1px solid #00f;
     padding: 20px;
     vertical-align: middle;
 }
 
-.tableHeader {
+.table__cell--header {
     background-color: rgb(130, 63, 236);
     color: white;
     font-weight: normal;
@@ -64,7 +62,7 @@ html {
     background-color: rgb(184, 194, 194);
 }
 
-.elementy {
+.elements {
     max-width: 1000px;
     background: rgb(211, 192, 192);
     padding: 20px;
@@ -98,4 +96,8 @@ html {
 .photo {
    
    padding: 10px;
+}
+
+.paragraph {
+    color:rgb(19, 12, 12);
 }
