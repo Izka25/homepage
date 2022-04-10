@@ -21,17 +21,30 @@
         
         button.addEventListener("click", buttonClick);
     };
-    welcome();
-    init();
-    
-    
+
+const removeButton = () => {
     const removePhotoButton = document.querySelector(".js-removePhotoButton");
     const photo = document.querySelector(".js-photo");
+
+    photo.classList.toggle("hidden");
+    removePhotoButton.innerText = photo.classList.contains("hidden") ? "Przywróć zdjęcie" : "Usuń zdjęcie";
+};
+
+const remove = () => {
+  
+    removePhotoButton.addEventListener("click", removeButton); 
+
+    remove();
+};
+
+   
+welcome();
+init();
     
-    removePhotoButton.addEventListener("click", () => {
-        photo.classList.toggle("hidden");
-        removePhotoButton.innerText = photo.classList.contains("hidden") ? "Przywróć zdjęcie" : "Usuń zdjęcie";
-    });
+    
+   
+    
+    
     
     
   
