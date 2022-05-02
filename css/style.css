@@ -7,12 +7,9 @@ html {
 }
 
 .naglowek {
+   text-align: center;
     color: blue;
 }
-
-
-
-
 
 .etui {
     color: #5c5757;

@@ -15,7 +15,6 @@
 
         removePhotoButton.addEventListener("click", removeButton);
 
-
     };
 
     const buttonClick = () => {
@@ -33,22 +32,11 @@
     const init = () => {
         const button = document.querySelector(".js-button");
 
-
         button.addEventListener("click", buttonClick);
     };
-
 
     welcome();
     remove();
     init();
-
-
-
-
-
-
-
-
-
 
 };
